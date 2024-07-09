@@ -9,6 +9,7 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/:chatId" element={<Main/>} />
+                    <Route path={'/'} element={<Test/>}/>
                 </Routes>
             </BrowserRouter>
         </>
